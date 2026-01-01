@@ -8,7 +8,7 @@ int main()
 {
     int n, q;
     cin >> n;
-    int arr[n];
+    vector<int> arr(n); // for a variable size n,always use vector instead of int arr[n].Standard C++ does not allow int arr[n]. Using it risks a Compilation Error.
     bool isExist[100001]={0};
     for (int i = 0; i < n; i++)
     {
