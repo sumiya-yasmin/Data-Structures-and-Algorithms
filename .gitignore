@@ -1,2 +1,5 @@
-.cph
-.exe
+.cph/
+*.exe
+output.txt
+input.txt
+settings.json
